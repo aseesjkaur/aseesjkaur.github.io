@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction | [Your Name], Advocate</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: url('https://images.unsplash.com/photo-1555371368-09e0d870ad8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      position: relative;
+      text-align: center;
+    }
+
+    /* Overlay */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 60px 40px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .logo {
+      font-size: 50px;
+      margin-bottom: 20px;
+      color: #f5d76e;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #f5d76e;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #eee;
+      margin-bottom: 35px;
+    }
+
+    .divider {
+      width: 70px;
+      height: 3px;
+      background: #f5d76e;
+      margin: 0 auto 35px;
+      border-radius: 3px;
+    }
+
+    .contact-info {
+      font-size: 1rem;
+      color: #ddd;
+      line-height: 1.8;
+    }
+
+    .contact-info a {
+      color: #f5d76e;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    @media (max-width: 600px) {
+      .content {
+        padding: 40px 25px;
+      }
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="logo">⚖️</div>
+    <h1>Website Under Construction</h1>
+    <div class="subtitle">
+      Thank you for visiting. This website is still under construction.
+    </div>
+    <div class="divider"></div>
+    <div class="contact-info">
+      <p>🔗 <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/aseesjasminekaur" target="_blank">
+          linkedin.com/in/aseesjasminekaur
+        </a>
+      </p>
+      <p>📧 <strong>Email:</strong>
+        <a href="mailto:asees.kaur@emle.eu">asees.kaur@emle.eu</a>
+      </p>
+      <p>📞 <strong>Phone:</strong>
+        <a href="tel:+918901330531">+91 89013 30530</a>
+      </p>
+    </div>
+
+    <footer>© 2025 Asees Jasmine Kaur, Advocate, India</footer>
+  </div>
+</body>
+</html>
